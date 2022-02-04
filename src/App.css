@@ -53,6 +53,18 @@
   color: white;
 }
 
+.App text {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
 .App input[type=text] {
   float: left;
   padding: 14px;
