@@ -24,10 +24,16 @@ function Inputbox () {
 function App() {
   return (
     <div className="App">
-      <Userlist/>
-      <Chat/>
-      <Inputbox/>
-    </div>
+       
+    <Userlist/>
+    
+    <Chat/>
+    <input type="text" placeholder="Message.."></input>
+    <a class="active">Send</a>
+    <Inputbox/>
+   
+  </div>
+ 
   );
 }
 
