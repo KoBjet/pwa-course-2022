@@ -24,12 +24,14 @@ function Inputbox () {
 function App() {
   return (
     <div className="App">
-    <text class="Username">Username</text>
-    <Userlist/>
-    <Chat/>
-    <input type="text" placeholder="Message.."></input>
-    <a class="active" href="javascript:alert('Your message was send.')">Send</a>
-    <Inputbox/>
+      <text class="Username">Username</text>
+      <Userlist/>
+      <p>Test Chatbox...</p>
+      <span class="time-right">11:00</span>
+      <Chat/>
+      <input type="text" placeholder="Message.."></input>
+      <a class="active" href="javascript:alert('Your message was send.')">Send</a>
+      <Inputbox/>
     </div>
   );
 }
