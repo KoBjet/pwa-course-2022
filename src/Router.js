@@ -3,6 +3,7 @@ import Home from './Home'
 import App from './App'
 import Profile from './Profile';
 import MiniGame from './MiniGame';
+import Friend from './Friend';
 
 function Router()
 {
@@ -13,6 +14,7 @@ function Router()
            <Route path="/app" element = {<App/>}/>
            <Route path="/profile" element = {<Profile/>}/>
            <Route path="/minigame" element = {<MiniGame/>}/>
+           <Route path="/friend" element = {<Friend/>}/>
        </Routes>
        </BrowserRouter>
     )
