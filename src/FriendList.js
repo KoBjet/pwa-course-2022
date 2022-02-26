@@ -14,7 +14,7 @@ function FriendList(){
   return(
     <App>
       <div className="friend-list">
-       ใส่โค้ดที่นี่
+      <FriendList data={friends}/>
       </div>
     </App>
   )
