@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import './FriendList.css';
 import App from './components/App';
+import Userlist from './components/Userlist.js';
 import Avatar from './components/Avatar';
+import Friendbox from './components/Friendbox.js';
 
 function FriendList(){
   const [friends, setFriends] = useState([
@@ -14,7 +16,8 @@ function FriendList(){
   return(
     <App>
       <div className="friend-list">
-      <FriendList data={friends}/>
+      <Userlist/>
+      <Friendbox data={friends}/>
       </div>
     </App>
   )

@@ -1,0 +1,19 @@
+
+
+.friendbox-item{
+  text-align: left;
+  margin-left: 24px;
+}
+
+
+.friendbox-item .avatar{
+  display: inline-block;
+}
+
+.friendbox-item-displayname{
+  padding: 20px 100px;
+  display: inline-block;
+  color: brown;
+}
+
+
