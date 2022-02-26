@@ -11,7 +11,7 @@ function Friendbox (props) {
           return (<div key={index} className={`friendbox-item ${item.position}`}>
             <div className="friendbox-itembox">
             <div>{item.user}</div>
-            <Avatar name={item.user}></Avatar>
+            <Avatar name={item.user}/>
             <div className="friendbox-item-displayname">{item.displayName}</div>
             </div>
           </div>)

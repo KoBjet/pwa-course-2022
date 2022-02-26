@@ -11,7 +11,8 @@
 }
 
 .friendbox-item-displayname{
-  padding: 20px 100px;
+  position: absolute;
+  padding: 35px 20px;
   display: inline-block;
   color: brown;
 }
